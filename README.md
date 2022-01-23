@@ -1,16 +1,14 @@
 # Manage Routing in Linux servers
 
-This function has been developed to automate your dnsdist settings in production environents. DNSDIST is a one of the POWERDNS products which is using to handeling and managing dns requests. The dnsdist is a one of the kind of Loadbalancer for balancing DNS traffic between Cache or Recursor servers.
-
 
 ## About The Project
 
-Using this python script you can automate dnsdist configuration regarding to admin values. This script can be integrated with Ansible for fasinating dns configuration. DNSDIST is a important service for security in DNS DDOS atacctions So you will be needed to be comfortable with changing your config in DDOS attactions if you are working with POWERDNS as a your DNS services.
+Using this python script you can automate routing configuration regarding to admin values. This script has been worked on the both of them Centos and Ubuntu servers.
 
 ## Installation
 
 ```bash
-yum repolist && yum install python-dotenv -y
+pip3 install pyyaml
 ```
 
 ### Getting Started
@@ -24,13 +22,13 @@ yum repolist && yum install git -y
 # Debian based distributions
 apt update && apt install git
 
-git clone https://github.com/ali-abaszadeh/DNSDIST-Settings.git
+git clone https://github.com/ali-abaszadeh/Routing.git
 ```
 
 
 ## Usage
 
-This function has been developed to automate your dnsdist settings in production environents. DNSDIST is a one of the POWEDNS products which is using to handeling and managing dns requests. The dnsdist is a one of the kind of Loadbalancer for balancing DNS traffic between Cache or Recursor servers.
+Using this python script you can automate routing configuration regarding to admin values. This script has been worked on the both of them Centos and Ubuntu servers.
 
 
 ## License
@@ -40,4 +38,4 @@ This function has been developed to automate your dnsdist settings in production
 
 a.abaszadeh1363@gmail.com
 
-Project Link: [https://github.com/ali-abaszadeh/DNSDIST-Settings.git]
+Project Link: [https://github.com/ali-abaszadeh/Routing.git]
